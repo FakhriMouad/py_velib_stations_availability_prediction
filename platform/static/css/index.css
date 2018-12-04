@@ -1,0 +1,71 @@
+html, body
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#titlee
+{
+    white-space:pre;
+}
+#info-dispo
+{
+    white-space:pre;
+}
+#info-dispo2
+{
+    white-space:pre;
+}
+
+#wrapper {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.searchButton {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#station-state
+{
+    font-size: 2.5vh;
+    display: none;
+}
+
+#station-dropdown
+{
+    font-size: 3vh;
+}
+
+#station-overflow
+{
+    display: none;
+}
+
+#graph-div
+{
+   position: relative;
+   height:100vh; 
+   width:50vw;
+   left:0;
+}
+
+#dispo-graph
+{
+    left:0;
+    height: 10vh;
+}
